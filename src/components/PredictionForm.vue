@@ -18,7 +18,7 @@
       <div :style="{ display: 'flex' }">
         <WiSnowflakeCold
           :style="{
-            fontSize: '1em',
+            fontSize: '2em',
             color: result.is_frost ? 'red' : 'green',
           }"
         />
@@ -28,29 +28,29 @@
       </div>
 
       <div :style="{ display: 'flex' }">
-        <WiThermometerExterior :style="{ fontSize: '1em', color: '#007bff' }" />
+        <WiThermometerExterior :style="{ fontSize: '2em', color: '#007bff' }" />
         <p><strong>Температура в 13:00:</strong> {{ result.temp_13 }}°C</p>
       </div>
       <div :style="{ display: 'flex' }">
-        <WiThermometerExterior :style="{ fontSize: '1em', color: '#007bff' }" />
+        <WiThermometerExterior :style="{ fontSize: '2em', color: '#007bff' }" />
         <p><strong>Температура в 22:00:</strong> {{ result.temp_22 }}°C</p>
       </div>
       <div :style="{ display: 'flex' }">
-        <WiRaindrop :style="{ fontSize: '1em', color: '#007bff' }" />
+        <WiRaindrop :style="{ fontSize: '2em', color: '#007bff' }" />
         <p><strong>Влажность в 13:00:</strong> {{ result.humidity_13 }}%</p>
       </div>
       <div :style="{ display: 'flex' }">
-        <WiRaindrop :style="{ fontSize: '1em', color: '#007bff' }" />
+        <WiRaindrop :style="{ fontSize: '2em', color: '#007bff' }" />
         <p><strong>Влажность в 22:00:</strong> {{ result.humidity_22 }}%</p>
       </div>
       <div :style="{ display: 'flex' }">
-        <AnOutlinedCloud :style="{ fontSize: '1em', color: '#007bff' }" />
+        <AnOutlinedCloud :style="{ fontSize: '2em', color: '#007bff' }" />
         <p>
           <strong>Облачность в 13:00:</strong> {{ result.clouds_13 * 100 }}%
         </p>
       </div>
       <div :style="{ display: 'flex' }">
-        <AnOutlinedCloud :style="{ fontSize: '1em', color: '#007bff' }" />
+        <AnOutlinedCloud :style="{ fontSize: '2em', color: '#007bff' }" />
         <p>
           <strong>Облачность в 22:00:</strong> {{ result.clouds_22 * 100 }}%
         </p>
