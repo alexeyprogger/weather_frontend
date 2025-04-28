@@ -27,8 +27,9 @@ export default {
 <style>
 .custom-input {
   padding: 10px;
+  background-color: #E0E0E0;
   margin-left: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid;
   border-radius: 5px;
   font-size: 1rem;
 }
