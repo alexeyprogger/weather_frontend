@@ -4,6 +4,7 @@
     <div class="grid">
       <PredictionForm model-type="svm"/>
       <PredictionForm model-type="nn"/>
+      <PredictionForm model-type="cnn"/>
     </div>
     <div class="fixed fixed_bottom">© 2025</div>
   </div>
@@ -40,7 +41,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   margin-left: 10vw;
   margin-right: 10vw;
